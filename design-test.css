@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+.mono {
+    font-family: 'Noto Sans Mono', monospace;
+}
+.cond {
+    font-variation-settings: "wdth" 62.5;
+}
+.night {
+    border-radius: 50px;
+    background: #4b4c53;
+    box-shadow:  inset 20px 20px 60px #404147,
+                 inset -20px -20px 60px #56575f;
+}
+.day {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
+}
+.flat-day {
+    background: #e0e0e0;
+}
+.flat-night {
+    background: #4b4c53;
+}
